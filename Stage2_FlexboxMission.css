@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*   
+
+*,*:before, *:after{
+    box-sizing: border-box;
+}*/ 
+
+.mb20{
+    margin-bottom: 20px;    
+}
+.mt30{
+    margin-top: 30px;
+}
+
+.mt60{
+    margin-top: 60px;
+}
+
+.ml20{
+    margin-left: 20px;
+}
+
+.mr20{
+    margin-right: 20px;
+}
+.fz24{
+    font-size: 24px;
+    color:#3F5D45;
+    font-weight: bold;
+}
+
+
+.ml20{
+margin-left: 20px;
+}
+
+.block{
+    display:block;
+}
+
+.bold{
+    font-weight: bold;
+}
+.wrap{
+    padding-right: 42px;
+    padding-left: 42px;
+    width: 1026px;
+    font-family:'Noto Sans TC';
+    color:#3F5D45;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+
+.header .logo1{
+    margin-right: 401.51px;
+}
+.header ul{
+    display:flex;
+    font-size: 16px;
+}
+
+.header ul li{
+    padding-right: 60px;
+}
+
+.header ul li a{
+    color:#3F5D45;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.header .sc{
+    position:absolute;
+    right:0;
+}
+
+.content1{
+    display: flex;
+}
+
+.content1 .category li{
+    width: 300px;
+    height: 65px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #EAF0ED solid 1px;
+}
+
+.content1 .category .main{
+    color:#fff;
+    background:#3F5D45;
+}
+
+.content1 .category .sub{
+    background: #EAF0ED;
+color:#3F5D45;
+}
+
+.category .others{
+    background: #fff;
+    color: #3F5D45;
+}
+
+.group .subgroup{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.group .item{
+padding-left: 33px;
+padding-right: 33px;
+border:#EAF0ED 1px solid;
+padding-top: 14px;
+padding-bottom: 14px;
+}
+
+.group .price{
+    text-align: center;
+    padding-left: 29px;
+    padding-right: 29px;
+    border:#EAF0ED 1px solid;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.group h2{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 88px;
+    padding-right: 88px;
+    background: #EAF0ED;
+    border: #EAF0ED 1px solid;
+}
+
+
+.content2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.page{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.page li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:1px solid #3F5D45;
+    width: 60px;
+    height: 60px;
+    border-left: none;
+}
+
+.alink{
+    display: block;
+    text-decoration: none;
+    color:#3F5D45;   
+}
+.numberone{
+    background: #3F5D45;
+}
+
+.white{
+    color:#fff;
+    text-decoration: none;
+}
+
+.page .bl{
+    border-left: 1px solid #3F5D45;}
+
+.footer{
+    width: 1024px;
+    height: 116px;
+    box-sizing: border-box;
+    background: #3F5D45;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.footer .left{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.footer h3{
+    font-size: 24px;
+    color: #EAF0ED;
+}
+
+.right{
+    display: flex;
+}
+
+.whitebox{
+    width: 316px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.brownbox{
+    width: 64px;height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFE180;
+}
+
